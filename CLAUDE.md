@@ -30,6 +30,11 @@ habits and available time windows. Don't push a routine or menu during this week
 the end, review the data with him (meal timing, gaps, snacking, when he actually had
 time to move) and then build the routine and meal plan from it.
 
+Context William gave: he works from home. Low-step days (~1–2k) are WFH days;
+high days (7–10k) are when he's out — shopping, or the weekend of Nov 14–15 (Chiefs
+game and a craft show). Add `"notes"` to an activity entry when he says what the
+day was (e.g. "WFH", "shopping").
+
 ## Schemas
 
 `data/workouts.json`
