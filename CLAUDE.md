@@ -18,6 +18,7 @@ Pages site (`index.html`) reads those files and renders the log and charts.
   `protein`. For chain/packaged food, look up the published nutrition and use it. For
   home cooking or anything without published numbers, give a reasonable estimate and
   set `"estimated": true`; ask about portion size if it changes the carbs a lot.
+  The site shows net carbs (carbs − fiber) automatically — always record `fiber`.
 - Keep health details out of the repo (it's public): no conditions, medications,
   glucose readings or personal context about family in any file or commit message.
 - Keep the files valid JSON (2-space indent), sorted by date ascending.
