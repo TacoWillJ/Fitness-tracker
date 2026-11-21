@@ -42,6 +42,11 @@ high days (7–10k) are when he's out — shopping, or the weekend of Nov 14–1
 game and a craft show). Add `"notes"` to an activity entry when he says what the
 day was (e.g. "WFH", "shopping").
 
+Pattern William named (2026-11-21): opportunity eating — extra food happens when he's
+picking up or around food for other people (hash browns on a breakfast run, fries
+from someone else's order). Mark these meals with `"notes": "opportunity"` so the
+end-of-week review can count them.
+
 ## Schemas
 
 `data/workouts.json`
