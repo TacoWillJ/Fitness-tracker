@@ -64,8 +64,9 @@ day was (e.g. "WFH", "shopping").
 (he reports them; Claude can't read phone health data here). If he sends an updated
 number for a day that already has an entry, replace that day's values.
 ```json
-[ { "date": "2026-11-21", "steps": 8200, "distance": 3.6 } ]
+[ { "date": "2026-11-21", "steps": 8200, "distance": 3.6, "moveCalories": 204, "moveGoal": 180, "flights": 2, "notes": "WFH" } ]
 ```
+Only `date` is required; include the Move ring numbers and flights when a screenshot shows them.
 
 `data/body.json`
 ```json
