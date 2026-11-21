@@ -10,5 +10,16 @@
     "sugar": 0,
     "protein": 4,
     "notes": "McDonald's published values x2"
+  },
+  {
+    "date": "2026-11-21",
+    "meal": "lunch",
+    "items": "Carl Buddig ham, 2 oz package (meat only)",
+    "calories": 90,
+    "carbs": 1,
+    "fiber": 0,
+    "sugar": 1,
+    "protein": 9,
+    "notes": "Values from package label"
   }
 ]
