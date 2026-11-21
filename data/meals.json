@@ -5,7 +5,10 @@
     "meal": "breakfast",
     "items": "2 McDonald's hash browns",
     "calories": 280,
+    "carbs": 36,
+    "fiber": 4,
+    "sugar": 0,
     "protein": 4,
-    "notes": "McDonald's US published values: 140 cal, 2g protein each"
+    "notes": "McDonald's published values x2"
   }
 ]

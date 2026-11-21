@@ -14,8 +14,12 @@ Pages site (`index.html`) reads those files and renders the log and charts.
   progress chart groups them. Check existing names in `data/workouts.json` first.
 - If William logs several things for the same day, add to that day's existing workout
   entry rather than creating a duplicate.
-- Leave `calories`/`protein` out of meals unless he gives them or asks for estimates;
-  if estimated, set `"estimated": true`.
+- Every meal should carry `carbs`, `fiber` and `sugar` (grams), plus `calories` and
+  `protein`. For chain/packaged food, look up the published nutrition and use it. For
+  home cooking or anything without published numbers, give a reasonable estimate and
+  set `"estimated": true`; ask about portion size if it changes the carbs a lot.
+- Keep health details out of the repo (it's public): no conditions, medications,
+  glucose readings or personal context about family in any file or commit message.
 - Keep the files valid JSON (2-space indent), sorted by date ascending.
 - Commit message: `Log: <date> <short summary>`.
 - Every entry (workout, cardio item, meal, weight) may have an optional `"time": "HH:MM"`
@@ -55,7 +59,7 @@ day was (e.g. "WFH", "shopping").
 `data/meals.json`
 ```json
 [
-  { "date": "2026-11-21", "time": "12:15", "meal": "lunch", "items": "Chicken burrito bowl", "calories": 650, "protein": 40, "estimated": true, "notes": "" }
+  { "date": "2026-11-21", "time": "12:15", "meal": "lunch", "items": "Chicken burrito bowl", "calories": 650, "carbs": 70, "fiber": 9, "sugar": 4, "protein": 40, "estimated": true, "notes": "" }
 ]
 ```
 `meal` is one of: breakfast, lunch, dinner, snack.

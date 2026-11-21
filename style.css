@@ -78,3 +78,4 @@ button { cursor: pointer; margin-top: 10px; }
 }
 .note { color: var(--muted); font-size: 0.85rem; }
 .time { display: inline-block; min-width: 3.6em; color: var(--muted); font-size: 0.8rem; font-variant-numeric: tabular-nums; }
+.totals { font-size: 0.82rem; color: var(--muted); margin: -2px 0 6px; }

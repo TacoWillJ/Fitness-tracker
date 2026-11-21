@@ -168,7 +168,8 @@
       items.push({ key, html: parts.join("") });
     }
     for (const m of d.meals) {
-      const macros = [m.calories && `${m.calories} cal`, m.protein && `${m.protein}g protein`].filter(Boolean).join(", ");
+      const has = (v) => v !== undefined && v !== null && v !== "";
+      const macros = [has(m.calories) && `${m.calories} cal`, has(m.carbs) && `${m.carbs}g carbs`, has(m.fiber) && `${m.fiber}g fiber`, has(m.sugar) && `${m.sugar}g sugar`, has(m.protein) && `${m.protein}g protein`].filter(Boolean).join(", ");
       items.push({
         key: m.time || mealSlot[m.meal] || "23:59",
         html: `<li>${t(m.time)}<span class="tag">${esc(m.meal || "food")}</span>${esc(m.items)}${macros ? ` <span class="note">(${esc(macros)}${m.estimated ? ", est." : ""})</span>` : ""}${m.notes ? ` <span class="note">— ${esc(m.notes)}</span>` : ""}</li>`,
@@ -180,7 +181,13 @@
       items.push({ key: "99:99", html: `<li><span class="tag">walking</span>${a.steps ? `${esc(Number(a.steps).toLocaleString())} steps` : ""}${a.distance ? `${a.steps ? ", " : ""}${esc(a.distance)} mi` : ""}${a.moveCalories ? ` <span class="note">· ${esc(a.moveCalories)}${a.moveGoal ? "/" + esc(a.moveGoal) : ""} move cal</span>` : ""}${a.estimated ? ` <span class="note">(est. from chart)</span>` : ""}${a.notes ? ` <span class="note">— ${esc(a.notes)}</span>` : ""}</li>` });
     }
     items.sort((a, b) => a.key.localeCompare(b.key));
-    return `<div class="day"><h3>${esc(fmtDate(k))}</h3><ul>${items.map((i) => i.html).join("")}</ul></div>`;
+    const sum = (f) => d.meals.reduce((n, m) => n + (Number(m[f]) || 0), 0);
+    const counted = (f) => d.meals.some((m) => m[f] !== undefined && m[f] !== null);
+    const totals = [["calories", " cal"], ["carbs", "g carbs"], ["fiber", "g fiber"], ["sugar", "g sugar"], ["protein", "g protein"]]
+      .filter(([f]) => counted(f)).map(([f, u]) => `${Math.round(sum(f))}${u}`).join(" · ");
+    const partial = d.meals.some((m) => m.carbs === undefined) && counted("carbs");
+    const totalsHtml = totals ? `<div class="totals">Day total: ${esc(totals)}${partial ? " (some meals missing numbers)" : ""}</div>` : "";
+    return `<div class="day"><h3>${esc(fmtDate(k))}</h3>${totalsHtml}<ul>${items.map((i) => i.html).join("")}</ul></div>`;
   }
 
   const logEl = document.getElementById("log"), moreBtn = document.getElementById("more");
