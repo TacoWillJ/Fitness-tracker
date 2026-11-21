@@ -177,7 +177,7 @@
     for (const b of d.body) items.push({ key: b.time || "00:00", html: `<li>${t(b.time)}<span class="tag">weight</span>${esc(b.weight)} lb</li>` });
     if (d.activity && (d.activity.steps || d.activity.distance)) {
       const a = d.activity;
-      items.push({ key: "99:99", html: `<li><span class="tag">walking</span>${a.steps ? `${esc(Number(a.steps).toLocaleString())} steps` : ""}${a.distance ? `${a.steps ? ", " : ""}${esc(a.distance)} mi` : ""}</li>` });
+      items.push({ key: "99:99", html: `<li><span class="tag">walking</span>${a.steps ? `${esc(Number(a.steps).toLocaleString())} steps` : ""}${a.distance ? `${a.steps ? ", " : ""}${esc(a.distance)} mi` : ""}${a.estimated ? ` <span class="note">(est. from chart)</span>` : ""}</li>` });
     }
     items.sort((a, b) => a.key.localeCompare(b.key));
     return `<div class="day"><h3>${esc(fmtDate(k))}</h3><ul>${items.map((i) => i.html).join("")}</ul></div>`;

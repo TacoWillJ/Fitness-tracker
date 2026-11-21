@@ -66,3 +66,10 @@ number for a day that already has an entry, replace that day's values.
 ```json
 [ { "date": "2026-11-21", "weight": 210.4 } ]
 ```
+
+## Logging from screenshots
+William may send Apple Fitness "Steps" screenshots. Exact numbers shown (the big Count
+on the D view) are logged as-is. Values read off bar heights are approximate — round
+to the nearest 100 steps / 0.05 mi and set `"estimated": true`. Don't log a partial
+day as final; the day's total comes from the next morning's D view of the prior day.
+Baseline noted 2026-11-21: ~3,800 steps/day yearly average, ~4,300 this month.

@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "date": "2026-11-16",
+    "steps": 1400,
+    "distance": 0.45,
+    "estimated": true
+  },
+  {
+    "date": "2026-11-17",
+    "steps": 2000,
+    "distance": 0.68,
+    "estimated": true
+  },
+  {
+    "date": "2026-11-18",
+    "steps": 4800,
+    "distance": 1.55,
+    "estimated": true
+  },
+  {
+    "date": "2026-11-19",
+    "steps": 3700,
+    "distance": 1.23,
+    "estimated": true
+  },
+  {
+    "date": "2026-11-20",
+    "steps": 4800,
+    "distance": 1.55,
+    "estimated": true
+  }
+]
