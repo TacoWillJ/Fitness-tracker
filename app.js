@@ -169,7 +169,7 @@
     }
     for (const m of d.meals) {
       const has = (v) => v !== undefined && v !== null && v !== "";
-      const macros = [has(m.calories) && `${m.calories} cal`, has(m.carbs) && `${m.carbs}g carbs`, has(m.carbs) && has(m.fiber) && `${Math.max(0, m.carbs - m.fiber)}g net`, has(m.fiber) && `${m.fiber}g fiber`, has(m.sugar) && `${m.sugar}g sugar`, has(m.protein) && `${m.protein}g protein`].filter(Boolean).join(", ");
+      const macros = [has(m.calories) && `${m.calories} cal`, has(m.carbs) && `${m.carbs}g carbs`, has(m.carbs) && has(m.fiber) && `${Math.max(0, m.carbs - m.fiber)}g net`, has(m.fiber) && `${m.fiber}g fiber`, has(m.sugar) && `${m.sugar}g sugar`, has(m.protein) && `${m.protein}g protein`, has(m.waterOz) && `${m.waterOz} oz water`].filter(Boolean).join(", ");
       items.push({
         key: m.time || mealSlot[m.meal] || "23:59",
         html: `<li>${t(m.time)}<span class="tag">${esc(m.meal || "food")}</span>${esc(m.items)}${macros ? ` <span class="note">(${esc(macros)}${m.estimated ? ", est." : ""})</span>` : ""}${m.notes ? ` <span class="note">— ${esc(m.notes)}</span>` : ""}</li>`,
@@ -183,7 +183,7 @@
     items.sort((a, b) => a.key.localeCompare(b.key));
     const sum = (f) => d.meals.reduce((n, m) => n + (Number(m[f]) || 0), 0);
     const counted = (f) => d.meals.some((m) => m[f] !== undefined && m[f] !== null);
-    let totals = [["calories", " cal"], ["carbs", "g carbs"], ["fiber", "g fiber"], ["sugar", "g sugar"], ["protein", "g protein"]]
+    let totals = [["calories", " cal"], ["carbs", "g carbs"], ["fiber", "g fiber"], ["sugar", "g sugar"], ["protein", "g protein"], ["waterOz", " oz water"]]
       .filter(([f]) => counted(f)).map(([f, u]) => `${Math.round(sum(f))}${u}`);
     if (counted("carbs") && counted("fiber")) totals.splice(2, 0, `${Math.round(Math.max(0, sum("carbs") - sum("fiber")))}g net carbs`);
     totals = totals.join(" · ");
