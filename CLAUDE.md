@@ -55,6 +55,13 @@ time to move) and then build the routine and meal plan from it.
 ```
 `meal` is one of: breakfast, lunch, dinner, snack.
 
+`data/activity.json` — one entry per day for walking stats from William's phone
+(he reports them; Claude can't read phone health data here). If he sends an updated
+number for a day that already has an entry, replace that day's values.
+```json
+[ { "date": "2026-11-21", "steps": 8200, "distance": 3.6 } ]
+```
+
 `data/body.json`
 ```json
 [ { "date": "2026-11-21", "weight": 210.4 } ]

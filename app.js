@@ -19,7 +19,7 @@
     } catch { return []; }
   }
 
-  const [workouts, meals, body] = await Promise.all([load("workouts"), load("meals"), load("body")]);
+  const [workouts, meals, body, activity] = await Promise.all([load("workouts"), load("meals"), load("body"), load("activity")]);
 
   // ---------- summary ----------
   const thisWeek = weekStart(new Date());
@@ -37,12 +37,14 @@
     [wkCardio, "cardio minutes"],
     [wkMeals.length, "meals logged"],
   ];
+  const wkActivity = activity.filter(inWeek).filter((a) => a.steps);
+  if (wkActivity.length) tiles.push([Math.round(wkActivity.reduce((n, a) => n + Number(a.steps), 0) / wkActivity.length).toLocaleString(), "avg daily steps"]);
   if (lastWeight != null) tiles.push([lastWeight, "latest weight (lb)"]);
   document.getElementById("summary").innerHTML = tiles
     .map(([v, l]) => `<div class="tile"><div class="value">${esc(v)}</div><div class="label">${esc(l)}</div></div>`)
     .join("");
 
-  const allDates = [...workouts, ...meals, ...body].map((e) => e.date).filter(Boolean).sort();
+  const allDates = [...workouts, ...meals, ...body, ...activity].map((e) => e.date).filter(Boolean).sort();
   document.getElementById("updated").textContent = allDates.length
     ? `Last entry: ${fmtDate(allDates[allDates.length - 1])}`
     : "No entries yet. Tell Claude what you did or ate to get started.";
@@ -56,7 +58,7 @@
       const v = min + ((max - min) * i) / ticks;
       const y = P.t + (H - P.t - P.b) * (1 - i / ticks);
       out.push(`<line class="grid" x1="${P.l}" x2="${W - P.r}" y1="${y}" y2="${y}"/>`);
-      out.push(`<text x="${P.l - 6}" y="${y + 4}" text-anchor="end">${Math.round(v * 10) / 10}</text>`);
+      out.push(`<text x="${P.l - 6}" y="${y + 4}" text-anchor="end">${max >= 1000 ? (Math.round(v / 100) / 10) + "k" : Math.round(v * 10) / 10}</text>`);
     }
     return out.join("");
   }
@@ -83,7 +85,8 @@
     const sy = (v) => P.t + (1 - v / max) * (H - P.t - P.b);
     const rects = bars.map((b, i) => {
       const x = P.l + i * slot + (slot - bw) / 2, y = sy(b.y);
-      const label = i % 2 === bars.length % 2 ? "" : `<text x="${x + bw / 2}" y="${H - 8}" text-anchor="middle">${b.label}</text>`;
+      const every = Math.ceil(bars.length / 6);
+      const label = (bars.length - 1 - i) % every ? "" :`<text x="${x + bw / 2}" y="${H - 8}" text-anchor="middle">${b.label}</text>`;
       return `<rect class="bar" rx="3" x="${x}" y="${y}" width="${bw}" height="${H - P.b - y}"><title>Week of ${b.label}: ${b.y}</title></rect>${label}`;
     }).join("");
     el.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img">${axes(0, max)}${rects}</svg>`;
@@ -118,6 +121,12 @@
     weeks.map((wk) => ({ label: shortDate(wk), y: workouts.filter((w) => sameDay(weekStart(parseDate(w.date)), wk)).length })),
     "No workouts logged in the last 12 weeks yet.");
 
+  // Steps, last 30 days
+  const stepDays = [...activity].filter((a) => a.steps).sort((a, b) => a.date.localeCompare(b.date)).slice(-30);
+  if (stepDays.length) barChart(document.getElementById("steps-chart"),
+    stepDays.map((a) => ({ label: shortDate(parseDate(a.date)), y: Number(a.steps) })), "");
+  else document.getElementById("steps-section").hidden = true;
+
   // Body weight
   if (sortedBody.length) lineChart(document.getElementById("weight-chart"), sortedBody.map((b) => ({ x: parseDate(b.date), y: Number(b.weight) })), "");
   else document.getElementById("weight-section").hidden = true;
@@ -128,6 +137,7 @@
   workouts.forEach((w) => day(w.date).workouts.push(w));
   meals.forEach((m) => day(m.date).meals.push(m));
   body.forEach((b) => day(b.date).body.push(b));
+  activity.forEach((a) => day(a.date).activity = a);
   const dayKeys = Object.keys(days).sort().reverse();
   const mealSlot = { breakfast: "08:00", lunch: "12:30", dinner: "18:30", snack: "15:00" };
   const fmtTime = (hm) => {
@@ -165,6 +175,10 @@
       });
     }
     for (const b of d.body) items.push({ key: b.time || "00:00", html: `<li>${t(b.time)}<span class="tag">weight</span>${esc(b.weight)} lb</li>` });
+    if (d.activity && (d.activity.steps || d.activity.distance)) {
+      const a = d.activity;
+      items.push({ key: "99:99", html: `<li><span class="tag">walking</span>${a.steps ? `${esc(Number(a.steps).toLocaleString())} steps` : ""}${a.distance ? `${a.steps ? ", " : ""}${esc(a.distance)} mi` : ""}</li>` });
+    }
     items.sort((a, b) => a.key.localeCompare(b.key));
     return `<div class="day"><h3>${esc(fmtDate(k))}</h3><ul>${items.map((i) => i.html).join("")}</ul></div>`;
   }
