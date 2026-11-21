@@ -22,5 +22,28 @@
     "sugar": 1,
     "protein": 9,
     "notes": "Values from package label"
+  },
+  {
+    "date": "2026-11-21",
+    "time": "10:03",
+    "meal": "lunch",
+    "items": "Carl Buddig chicken, 2 oz package (meat only)",
+    "calories": 90,
+    "carbs": 2,
+    "fiber": 0,
+    "sugar": 1,
+    "protein": 9,
+    "notes": "Values from package label; second pack with lunch"
+  },
+  {
+    "date": "2026-11-21",
+    "time": "10:03",
+    "meal": "snack",
+    "items": "Ice water (large tumbler)",
+    "calories": 0,
+    "carbs": 0,
+    "fiber": 0,
+    "sugar": 0,
+    "protein": 0
   }
 ]
