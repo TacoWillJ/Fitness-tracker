@@ -129,7 +129,11 @@
   meals.forEach((m) => day(m.date).meals.push(m));
   body.forEach((b) => day(b.date).body.push(b));
   const dayKeys = Object.keys(days).sort().reverse();
-  const mealOrder = { breakfast: 0, lunch: 1, dinner: 2, snack: 3 };
+  const mealSlot = { breakfast: "08:00", lunch: "12:30", dinner: "18:30", snack: "15:00" };
+  const fmtTime = (hm) => {
+    const [h, m] = hm.split(":").map(Number);
+    return `${((h + 11) % 12) + 1}:${String(m || 0).padStart(2, "0")}${h < 12 ? "a" : "p"}`;
+  };
 
   function setText(sets) {
     // Collapse identical sets: 3×8 @ 135
@@ -143,18 +147,26 @@
   }
 
   function renderDay(k) {
-    const d = days[k], parts = [];
+    // Each item gets a sort key: its time ("HH:MM") if given, else a rough slot.
+    const d = days[k], items = [];
+    const t = (time) => time ? `<span class="time">${esc(fmtTime(time))}</span>` : "";
     for (const w of d.workouts) {
-      for (const ex of w.exercises || []) parts.push(`<li><span class="tag">lift</span>${esc(ex.name)}: ${esc(setText(ex.sets))}</li>`);
-      for (const c of w.cardio || []) parts.push(`<li><span class="tag">cardio</span>${esc(c.name)}${c.minutes ? ` ${esc(c.minutes)} min` : ""}${c.distance ? `, ${esc(c.distance)} mi` : ""}</li>`);
+      const key = w.time || "12:00", parts = [];
+      for (const ex of w.exercises || []) parts.push(`<li>${t(w.time)}<span class="tag">lift</span>${esc(ex.name)}: ${esc(setText(ex.sets))}</li>`);
+      for (const c of w.cardio || []) parts.push(`<li>${t(c.time || w.time)}<span class="tag">cardio</span>${esc(c.name)}${c.minutes ? ` ${esc(c.minutes)} min` : ""}${c.distance ? `, ${esc(c.distance)} mi` : ""}</li>`);
       if (w.notes) parts.push(`<li class="note">${esc(w.notes)}</li>`);
+      items.push({ key, html: parts.join("") });
     }
-    for (const m of [...d.meals].sort((a, b) => (mealOrder[a.meal] ?? 9) - (mealOrder[b.meal] ?? 9))) {
+    for (const m of d.meals) {
       const macros = [m.calories && `${m.calories} cal`, m.protein && `${m.protein}g protein`].filter(Boolean).join(", ");
-      parts.push(`<li><span class="tag">${esc(m.meal || "food")}</span>${esc(m.items)}${macros ? ` <span class="note">(${esc(macros)}${m.estimated ? ", est." : ""})</span>` : ""}${m.notes ? ` <span class="note">— ${esc(m.notes)}</span>` : ""}</li>`);
+      items.push({
+        key: m.time || mealSlot[m.meal] || "23:59",
+        html: `<li>${t(m.time)}<span class="tag">${esc(m.meal || "food")}</span>${esc(m.items)}${macros ? ` <span class="note">(${esc(macros)}${m.estimated ? ", est." : ""})</span>` : ""}${m.notes ? ` <span class="note">— ${esc(m.notes)}</span>` : ""}</li>`,
+      });
     }
-    for (const b of d.body) parts.push(`<li><span class="tag">weight</span>${esc(b.weight)} lb</li>`);
-    return `<div class="day"><h3>${esc(fmtDate(k))}</h3><ul>${parts.join("")}</ul></div>`;
+    for (const b of d.body) items.push({ key: b.time || "00:00", html: `<li>${t(b.time)}<span class="tag">weight</span>${esc(b.weight)} lb</li>` });
+    items.sort((a, b) => a.key.localeCompare(b.key));
+    return `<div class="day"><h3>${esc(fmtDate(k))}</h3><ul>${items.map((i) => i.html).join("")}</ul></div>`;
   }
 
   const logEl = document.getElementById("log"), moreBtn = document.getElementById("more");

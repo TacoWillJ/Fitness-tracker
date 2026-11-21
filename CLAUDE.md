@@ -18,6 +18,17 @@ Pages site (`index.html`) reads those files and renders the log and charts.
   if estimated, set `"estimated": true`.
 - Keep the files valid JSON (2-space indent), sorted by date ascending.
 - Commit message: `Log: <date> <short summary>`.
+- Every entry (workout, cardio item, meal, weight) may have an optional `"time": "HH:MM"`
+  (24-hour, local). Record it whenever William gives or implies one ("around 7",
+  "after work" → ask or use his stated time); it's how we find his real time windows.
+- Snacks and drinks count as meals (`"meal": "snack"`). Put context William mentions
+  (hunger, mood, eating out, skipped meal, why a workout was skipped) in `notes`.
+
+## Discovery week (started 2026-11-21)
+William is spending the first week just logging honestly — no plan yet — to learn his
+habits and available time windows. Don't push a routine or menu during this week; at
+the end, review the data with him (meal timing, gaps, snacking, when he actually had
+time to move) and then build the routine and meal plan from it.
 
 ## Schemas
 
@@ -39,7 +50,7 @@ Pages site (`index.html`) reads those files and renders the log and charts.
 `data/meals.json`
 ```json
 [
-  { "date": "2026-11-21", "meal": "lunch", "items": "Chicken burrito bowl", "calories": 650, "protein": 40, "estimated": true, "notes": "" }
+  { "date": "2026-11-21", "time": "12:15", "meal": "lunch", "items": "Chicken burrito bowl", "calories": 650, "protein": 40, "estimated": true, "notes": "" }
 ]
 ```
 `meal` is one of: breakfast, lunch, dinner, snack.
