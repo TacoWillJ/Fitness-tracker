@@ -52,13 +52,12 @@
     "date": "2026-11-21",
     "time": "15:15",
     "meal": "snack",
-    "items": "Five Guys fries, a few handfuls (~half a Little fries)",
-    "calories": 265,
-    "carbs": 36,
-    "fiber": 4,
-    "sugar": 1,
-    "protein": 4,
-    "estimated": true,
-    "notes": "based on Five Guys Little fries values, halved"
+    "items": "Five Guys Little fries",
+    "calories": 526,
+    "carbs": 72,
+    "fiber": 8,
+    "sugar": 2,
+    "protein": 8,
+    "notes": "Five Guys published values"
   }
 ]
