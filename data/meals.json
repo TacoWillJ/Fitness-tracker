@@ -47,5 +47,18 @@
     "protein": 0,
     "waterOz": 40,
     "estimated": true
+  },
+  {
+    "date": "2026-11-21",
+    "time": "15:15",
+    "meal": "snack",
+    "items": "Five Guys fries, a few handfuls (~half a Little fries)",
+    "calories": 265,
+    "carbs": 36,
+    "fiber": 4,
+    "sugar": 1,
+    "protein": 4,
+    "estimated": true,
+    "notes": "Grabbed from son's order; based on Five Guys Little fries values, halved"
   }
 ]
