@@ -3,6 +3,9 @@
     "date": "2026-11-21",
     "time": "07:30",
     "meal": "breakfast",
-    "items": "2 McDonald's hash browns"
+    "items": "2 McDonald's hash browns",
+    "calories": 280,
+    "protein": 4,
+    "notes": "McDonald's US published values: 140 cal, 2g protein each"
   }
 ]
