@@ -39,13 +39,13 @@
     "date": "2026-11-21",
     "time": "10:03",
     "meal": "snack",
-    "items": "Ice water (large tumbler, ~32 oz)",
+    "items": "Ice water (large tumbler, ~40 oz)",
     "calories": 0,
     "carbs": 0,
     "fiber": 0,
     "sugar": 0,
     "protein": 0,
-    "waterOz": 32,
+    "waterOz": 40,
     "estimated": true
   }
 ]
