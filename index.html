@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fitness Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Fitness Tracker</h1>
+    <p id="updated" class="muted"></p>
+  </header>
+
+  <main>
+    <section>
+      <h2>This week</h2>
+      <div id="summary" class="tiles"></div>
+    </section>
+
+    <section>
+      <h2>Lift progress</h2>
+      <select id="exercise-select" aria-label="Exercise"></select>
+      <div id="lift-chart" class="chart"></div>
+    </section>
+
+    <section>
+      <h2>Workouts per week</h2>
+      <div id="weekly-chart" class="chart"></div>
+    </section>
+
+    <section id="weight-section">
+      <h2>Body weight</h2>
+      <div id="weight-chart" class="chart"></div>
+    </section>
+
+    <section>
+      <h2>Log</h2>
+      <div id="log"></div>
+      <button id="more" hidden>Show more days</button>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
