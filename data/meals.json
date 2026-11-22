@@ -117,5 +117,17 @@
     "protein": 3,
     "estimated": true,
     "notes": "At the game; ~149 cal, 8 g sugar, 1.7 g fiber per oz"
+  },
+  {
+    "date": "2026-11-22",
+    "time": "08:56",
+    "meal": "snack",
+    "items": "Armour pepperoni, 16 slices (1 serving)",
+    "calories": 140,
+    "carbs": 1,
+    "fiber": 0,
+    "sugar": 0,
+    "protein": 6,
+    "notes": "Label: per 16 slices (30 g); watching football"
   }
 ]

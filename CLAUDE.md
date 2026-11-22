@@ -53,6 +53,11 @@ At games he usually walks the concourse between periods — an easy built-in wal
 His own swap idea: on an opportunity breakfast run, get a side of scrambled eggs instead
 of hash browns.
 
+## Saved foods (from labels William sent)
+- Carl Buddig ham, 2 oz pack: 90 cal, 1 g carbs, 0 g fiber, 1 g sugar, 9 g protein
+- Carl Buddig chicken, 2 oz pack: 90 cal, 2 g carbs, 0 g fiber, 1 g sugar, 9 g protein
+- Armour pepperoni, per 16 slices (30 g): 140 cal, 1 g carbs, 0 g fiber, <1 g sugar, 6 g protein
+
 ## Schemas
 
 `data/workouts.json`
