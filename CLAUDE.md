@@ -50,6 +50,10 @@ end-of-week review can count them.
 William flagged 2026-11-21 (game day) as not a normal eating day — two orders of fries.
 Weigh it accordingly in the review; he wants to cut back on fries.
 At games he usually walks the concourse between periods — an easy built-in walk.
+Football days are his grazing/salty days (he expects it). Thanksgiving (Thu 2026-11-26)
+is his big holiday: he's cooking smoked turkey, spiral ham, pickles, olives, radishes,
+potatoes, corn, stuffing, fruit salad, and eats leftovers all week. Log it anyway with
+rough portions; turkey leftovers are a good lean-protein option for the review.
 His own swap idea: on an opportunity breakfast run, get a side of scrambled eggs instead
 of hash browns.
 
