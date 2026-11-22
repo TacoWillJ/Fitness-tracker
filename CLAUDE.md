@@ -47,6 +47,9 @@ picking up or around food for other people (hash browns on a breakfast run, frie
 from someone else's order). Mark these meals with `"notes": "opportunity"` so the
 end-of-week review can count them.
 
+William flagged 2026-11-21 (game day) as not a normal eating day — two orders of fries.
+Weigh it accordingly in the review; he wants to cut back on fries.
+
 ## Schemas
 
 `data/workouts.json`
