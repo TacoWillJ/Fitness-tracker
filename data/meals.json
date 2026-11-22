@@ -130,5 +130,18 @@
     "protein": 30,
     "notes": "Label x5 (bag says about 5 servings); snacking through football",
     "estimated": true
+  },
+  {
+    "date": "2026-11-22",
+    "time": "11:26",
+    "meal": "snack",
+    "items": "Ice water (large tumbler packed with ice, ~30 oz liquid)",
+    "calories": 0,
+    "carbs": 0,
+    "fiber": 0,
+    "sugar": 0,
+    "protein": 0,
+    "waterOz": 30,
+    "estimated": true
   }
 ]
