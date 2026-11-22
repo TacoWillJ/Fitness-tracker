@@ -169,5 +169,18 @@
     "sugar": 0,
     "protein": 42,
     "notes": "Label x7; grazing over the afternoon during football"
+  },
+  {
+    "date": "2026-11-22",
+    "time": "14:59",
+    "meal": "snack",
+    "items": "Crystal Light lemonade, 1 mug (~12 oz)",
+    "calories": 5,
+    "carbs": 0,
+    "fiber": 0,
+    "sugar": 0,
+    "protein": 0,
+    "waterOz": 12,
+    "estimated": true
   }
 ]
