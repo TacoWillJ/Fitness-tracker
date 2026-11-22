@@ -31,5 +31,14 @@
     "moveGoal": 180,
     "flights": 2,
     "notes": "Early WinCo trip (Thanksgiving shopping); ~3 PM got ready for Chiefs game, plans changed, didn't go"
+  },
+  {
+    "date": "2026-11-21",
+    "steps": 3276,
+    "distance": 1.04,
+    "moveCalories": 147,
+    "moveGoal": 180,
+    "flights": 2,
+    "notes": "Game day: breakfast run, dinner pickup, evening game, late Wendy's"
   }
 ]
