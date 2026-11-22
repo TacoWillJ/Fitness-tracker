@@ -182,5 +182,19 @@
     "protein": 0,
     "waterOz": 12,
     "estimated": true
+  },
+  {
+    "date": "2026-11-22",
+    "time": "15:24",
+    "meal": "snack",
+    "items": "Swiss Miss milk chocolate hot cocoa, 2 small (0.73 oz) packets",
+    "calories": 180,
+    "carbs": 34,
+    "fiber": 2,
+    "sugar": 24,
+    "protein": 2,
+    "waterOz": 12,
+    "estimated": true,
+    "notes": "Label: 90 cal, 12 g sugar, 1 g protein per packet; carbs/fiber estimated; snowy day"
   }
 ]
