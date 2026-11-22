@@ -59,5 +59,15 @@
     "sugar": 2,
     "protein": 8,
     "notes": "Five Guys published values; opportunity"
+  },
+  {
+    "date": "2026-11-21",
+    "meal": "snack",
+    "items": "Coke Zero, 6 oz (at the game, iced)",
+    "calories": 0,
+    "carbs": 0,
+    "fiber": 0,
+    "sugar": 0,
+    "protein": 0
   }
 ]
