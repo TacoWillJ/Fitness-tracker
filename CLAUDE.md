@@ -46,6 +46,8 @@ Pattern William named (2026-11-21): opportunity eating — extra food happens wh
 picking up or around food for other people (hash browns on a breakfast run, fries
 from someone else's order). Mark these meals with `"notes": "opportunity"` so the
 end-of-week review can count them.
+Second pattern he named (2026-11-22): "no-reason food" — eating something just because
+it's in the fridge (a random pepperoni pack). Tag with `"notes": "no-reason"`.
 
 William flagged 2026-11-21 (game day) as not a normal eating day — two orders of fries.
 Weigh it accordingly in the review; he wants to cut back on fries.
