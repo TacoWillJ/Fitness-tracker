@@ -143,5 +143,31 @@
     "protein": 0,
     "waterOz": 30,
     "estimated": true
+  },
+  {
+    "date": "2026-11-22",
+    "time": "11:30",
+    "meal": "snack",
+    "estimated": true,
+    "items": "Hickory Farms summer sausage, whole 7 oz stick (3.5 servings)",
+    "calories": 665,
+    "carbs": 4,
+    "fiber": 0,
+    "sugar": 4,
+    "protein": 35,
+    "notes": "Label x3.5; grazing over the afternoon during football"
+  },
+  {
+    "date": "2026-11-22",
+    "time": "11:30",
+    "meal": "snack",
+    "estimated": true,
+    "items": "Hickory Farms Jalape\u00f1o Cheddar Blend, whole 7 oz bar (7 servings)",
+    "calories": 700,
+    "carbs": 7,
+    "fiber": 0,
+    "sugar": 0,
+    "protein": 42,
+    "notes": "Label x7; grazing over the afternoon during football"
   }
 ]
