@@ -122,12 +122,13 @@
     "date": "2026-11-22",
     "time": "08:56",
     "meal": "snack",
-    "items": "Armour pepperoni, 16 slices (1 serving)",
-    "calories": 140,
-    "carbs": 1,
+    "items": "Armour pepperoni, whole bag (~5 servings, ~80 slices)",
+    "calories": 700,
+    "carbs": 5,
     "fiber": 0,
-    "sugar": 0,
-    "protein": 6,
-    "notes": "Label: per 16 slices (30 g); watching football"
+    "sugar": 2,
+    "protein": 30,
+    "notes": "Label x5 (bag says about 5 servings); snacking through football",
+    "estimated": true
   }
 ]
