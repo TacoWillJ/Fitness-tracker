@@ -27,7 +27,7 @@ Pages site (`index.html`) reads those files and renders the log and charts.
   (24-hour, local). Record it whenever William gives or implies one ("around 7",
   "after work" → ask or use his stated time); it's how we find his real time windows.
 - Water: log as `"meal": "snack"` with zero macros and `"waterOz"`. His usual
-  large tumbler is ~40 oz (estimated until he measures it).
+  large tumbler is ~40 oz but he packs it with ice, so count ~30 oz of water per cup.
 - Snacks and drinks count as meals (`"meal": "snack"`). Put context William mentions
   (hunger, mood, eating out, skipped meal, why a workout was skipped) in `notes`.
 
