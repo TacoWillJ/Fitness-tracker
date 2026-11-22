@@ -103,5 +103,17 @@
     "fiber": 0,
     "sugar": 0,
     "protein": 0
+  },
+  {
+    "date": "2026-11-21",
+    "meal": "snack",
+    "items": "Kettle corn, ~40 oz cup by volume (~5 cups, ~2.5 oz)",
+    "calories": 370,
+    "carbs": 45,
+    "fiber": 4,
+    "sugar": 20,
+    "protein": 3,
+    "estimated": true,
+    "notes": "At the game; ~149 cal, 8 g sugar, 1.7 g fiber per oz"
   }
 ]
