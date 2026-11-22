@@ -69,5 +69,39 @@
     "fiber": 0,
     "sugar": 0,
     "protein": 0
+  },
+  {
+    "date": "2026-11-21",
+    "time": "22:30",
+    "meal": "dinner",
+    "items": "Wendy's Dave's Double",
+    "calories": 850,
+    "carbs": 35,
+    "fiber": 2,
+    "sugar": 7,
+    "protein": 49,
+    "notes": "Late dinner after game; holiday box"
+  },
+  {
+    "date": "2026-11-21",
+    "time": "22:30",
+    "meal": "dinner",
+    "items": "Wendy's small fries",
+    "calories": 320,
+    "carbs": 43,
+    "fiber": 4,
+    "sugar": 0,
+    "protein": 5
+  },
+  {
+    "date": "2026-11-21",
+    "time": "22:30",
+    "meal": "dinner",
+    "items": "Wendy's small Coke Zero",
+    "calories": 0,
+    "carbs": 0,
+    "fiber": 0,
+    "sugar": 0,
+    "protein": 0
   }
 ]
