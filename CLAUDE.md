@@ -61,7 +61,7 @@ of hash browns.
 - Carl Buddig ham, 2 oz pack: 90 cal, 1 g carbs, 0 g fiber, 1 g sugar, 9 g protein
 - Carl Buddig chicken, 2 oz pack: 90 cal, 2 g carbs, 0 g fiber, 1 g sugar, 9 g protein
 - Hickory Farms Farmhouse summer sausage (7 oz stick), per 2 oz: 190 cal, 1 g carbs, 0 g fiber, 1 g sugar, 10 g protein (580 mg sodium)
-- Hickory Farms Jalapeño Cheddar Blend (7 oz bar), per 1 oz: 90 cal, ~1 g carbs, 0 g fiber, 0 g sugar, 6 g protein
+- Hickory Farms Jalapeño Cheddar Blend (7 oz bar, 7 servings), per 1 oz: 100 cal, 1 g carbs, 0 g fiber, 0 g sugar, 6 g protein (360 mg sodium) — from label
 - Armour pepperoni, per 16 slices (30 g): 140 cal, 1 g carbs, 0 g fiber, <1 g sugar, 6 g protein
 
 ## Schemas
