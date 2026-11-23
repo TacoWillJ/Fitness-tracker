@@ -235,5 +235,18 @@
     "protein": 44,
     "estimated": true,
     "notes": "Published 8\": 1090 cal, 59 g carbs, 71 g fat; fiber/sugar/protein estimated"
+  },
+  {
+    "date": "2026-11-23",
+    "time": "14:39",
+    "meal": "snack",
+    "items": "Mtn Dew Baja Blast Zero Sugar, 2 x 12 oz cans",
+    "calories": 0,
+    "carbs": 0,
+    "fiber": 0,
+    "sugar": 0,
+    "protein": 0,
+    "waterOz": 24,
+    "notes": "Label: 0 cal, 0 g carbs, 68 mg caffeine per can"
   }
 ]
