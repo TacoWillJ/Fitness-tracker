@@ -196,5 +196,18 @@
     "waterOz": 12,
     "estimated": true,
     "notes": "Box: 160 cal, 23 g added sugar per envelope; carbs ~34 g each; snowy day"
+  },
+  {
+    "date": "2026-11-22",
+    "time": "22:50",
+    "meal": "snack",
+    "items": "Crystal Light lemonade, 1 mug (~12 oz)",
+    "calories": 5,
+    "carbs": 0,
+    "fiber": 0,
+    "sugar": 0,
+    "protein": 0,
+    "waterOz": 12,
+    "estimated": true
   }
 ]
