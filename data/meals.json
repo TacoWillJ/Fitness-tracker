@@ -222,5 +222,18 @@
     "protein": 25,
     "estimated": true,
     "notes": "Typical 4% cottage cheese values"
+  },
+  {
+    "date": "2026-11-23",
+    "time": "10:42",
+    "meal": "lunch",
+    "items": "Port of Subs sausage, egg & cheese breakfast sub, ~10 inch",
+    "calories": 1310,
+    "carbs": 74,
+    "fiber": 4,
+    "sugar": 5,
+    "protein": 55,
+    "estimated": true,
+    "notes": "Between published 8\" (1090 cal, 59 g carbs) and 12\" (1530 cal, 89 g carbs) values"
   }
 ]
