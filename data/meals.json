@@ -227,13 +227,13 @@
     "date": "2026-11-23",
     "time": "10:42",
     "meal": "lunch",
-    "items": "Port of Subs sausage, egg & cheese breakfast sub, ~10 inch",
-    "calories": 1310,
-    "carbs": 74,
-    "fiber": 4,
-    "sugar": 5,
-    "protein": 55,
+    "items": "Port of Subs sausage, egg & cheese breakfast sub, 8 inch (medium)",
+    "calories": 1090,
+    "carbs": 59,
+    "fiber": 3,
+    "sugar": 4,
+    "protein": 44,
     "estimated": true,
-    "notes": "Between published 8\" (1090 cal, 59 g carbs) and 12\" (1530 cal, 89 g carbs) values"
+    "notes": "Published 8\": 1090 cal, 59 g carbs, 71 g fat; fiber/sugar/protein estimated"
   }
 ]
