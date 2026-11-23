@@ -40,5 +40,14 @@
     "moveGoal": 180,
     "flights": 2,
     "notes": "Game day: breakfast run, dinner pickup, evening game, late Wendy's; usually walks the concourse between periods, skipped this time (sold-out crowd)"
+  },
+  {
+    "date": "2026-11-22",
+    "steps": 3028,
+    "distance": 1.14,
+    "moveCalories": 158,
+    "moveGoal": 180,
+    "flights": 3,
+    "notes": "Home all day, football and snow"
   }
 ]
