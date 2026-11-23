@@ -209,5 +209,17 @@
     "protein": 0,
     "waterOz": 12,
     "estimated": true
+  },
+  {
+    "date": "2026-11-22",
+    "meal": "dinner",
+    "items": "Cottage cheese, 2 servings (~1 cup)",
+    "calories": 220,
+    "carbs": 10,
+    "fiber": 0,
+    "sugar": 8,
+    "protein": 25,
+    "estimated": true,
+    "notes": "Sunday evening; typical 4% cottage cheese values"
   }
 ]
