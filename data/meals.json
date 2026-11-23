@@ -211,8 +211,9 @@
     "estimated": true
   },
   {
-    "date": "2026-11-22",
-    "meal": "snack",
+    "date": "2026-11-23",
+    "time": "09:00",
+    "meal": "breakfast",
     "items": "Cottage cheese, 2 servings (~1 cup)",
     "calories": 220,
     "carbs": 10,
@@ -220,6 +221,6 @@
     "sugar": 8,
     "protein": 25,
     "estimated": true,
-    "notes": "Sunday evening snack, no dinner; typical 4% cottage cheese values"
+    "notes": "Typical 4% cottage cheese values"
   }
 ]
