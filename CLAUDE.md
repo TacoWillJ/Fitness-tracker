@@ -58,6 +58,8 @@ Football days are his grazing/salty days (he expects it). Thanksgiving (Thu 2026
 is his big holiday: he's cooking smoked turkey, spiral ham, pickles, olives, radishes,
 potatoes, corn, stuffing, fruit salad, and eats leftovers all week. Log it anyway with
 rough portions; turkey leftovers are a good lean-protein option for the review.
+Equipment: he has an elliptical in the garage. Daily Move ring has been ~20-40 cal short
+(about 10 min of activity); he wants to add ~10 min walks or elliptical. Log as cardio.
 His own swap idea: on an opportunity breakfast run, get a side of scrambled eggs instead
 of hash browns.
 
