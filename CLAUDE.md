@@ -68,6 +68,9 @@ of hash browns.
 - Hickory Farms Jalapeño Cheddar Blend (7 oz bar, 7 servings), per 1 oz: 100 cal, 1 g carbs, 0 g fiber, 0 g sugar, 6 g protein (360 mg sodium) — from label
 - Swiss Miss milk chocolate, 30-ct box (1.38 oz envelope): 160 cal, ~34 g carbs, ~0.5 g fiber, ~24 g sugar (23 g added), 1 g protein
 - Homemade Chex mix (box recipe, no rye chips), per cup: ~260 cal, ~36 g carbs, ~2 g fiber, ~4 g sugar, ~5 g protein (estimate)
+- Mtn Dew Baja Blast Zero Sugar, 12 oz can: 0 cal, 0 g carbs, 0 g sugar (68 mg caffeine) — count waterOz 12
+- Ruffles Original, 1 oz (~12 chips): 160 cal, 15 g carbs, 1 g fiber, ~0.5 g sugar, 2 g protein
+- Cottage cheese, 1 cup (generic 4%, estimate): 220 cal, 10 g carbs, 0 g fiber, 8 g sugar, 25 g protein
 - Armour pepperoni, per 16 slices (30 g): 140 cal, 1 g carbs, 0 g fiber, <1 g sugar, 6 g protein
 
 ## Schemas

@@ -261,5 +261,43 @@
     "protein": 5,
     "estimated": true,
     "notes": "Chex box party-mix recipe (cereals, nuts, pretzels, butter, Worcestershire) without rye chips; skipped dinner (didn't get around to it)"
+  },
+  {
+    "date": "2026-11-24",
+    "time": "09:45",
+    "meal": "breakfast",
+    "items": "Cottage cheese, 1 cup",
+    "calories": 220,
+    "carbs": 10,
+    "fiber": 0,
+    "sugar": 8,
+    "protein": 25,
+    "estimated": true,
+    "notes": "Typical 4% cottage cheese values"
+  },
+  {
+    "date": "2026-11-24",
+    "time": "09:45",
+    "meal": "breakfast",
+    "items": "Ruffles Original chips, 1 serving (~12 chips, 1 oz)",
+    "calories": 160,
+    "carbs": 15,
+    "fiber": 1,
+    "sugar": 1,
+    "protein": 2,
+    "notes": "Published 1 oz serving"
+  },
+  {
+    "date": "2026-11-24",
+    "time": "09:45",
+    "meal": "breakfast",
+    "items": "Mtn Dew Baja Blast Zero Sugar, 2 x 12 oz cans",
+    "calories": 0,
+    "carbs": 0,
+    "fiber": 0,
+    "sugar": 0,
+    "protein": 0,
+    "waterOz": 24,
+    "notes": "0 cal, 68 mg caffeine per can"
   }
 ]
