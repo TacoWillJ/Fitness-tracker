@@ -248,5 +248,18 @@
     "protein": 0,
     "waterOz": 24,
     "notes": "Label: 0 cal, 0 g carbs, 68 mg caffeine per can"
+  },
+  {
+    "date": "2026-11-23",
+    "time": "21:46",
+    "meal": "snack",
+    "items": "Homemade Chex mix, ~1 cup",
+    "calories": 260,
+    "carbs": 36,
+    "fiber": 2,
+    "sugar": 4,
+    "protein": 5,
+    "estimated": true,
+    "notes": "Typical butter-and-seasoning Chex mix with pretzels/nuts"
   }
 ]
