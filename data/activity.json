@@ -49,5 +49,14 @@
     "moveGoal": 180,
     "flights": 3,
     "notes": "Home all day, football and snow"
+  },
+  {
+    "date": "2026-11-23",
+    "steps": 2974,
+    "distance": 1.07,
+    "moveCalories": 140,
+    "moveGoal": 180,
+    "flights": 4,
+    "notes": "WFH; late-morning sub run, most movement ~5-6 PM"
   }
 ]
