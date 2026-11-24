@@ -48,6 +48,8 @@ from someone else's order). Mark these meals with `"notes": "opportunity"` so th
 end-of-week review can count them.
 Second pattern he named (2026-11-22): "no-reason food" — eating something just because
 it's in the fridge (a random pepperoni pack). Tag with `"notes": "no-reason"`.
+Third pattern (seen 2026-11-22 and 11-23): skipped dinner, then an evening snack instead —
+long gaps after a midday meal. Note skipped meals in `notes`.
 
 William flagged 2026-11-21 (game day) as not a normal eating day — two orders of fries.
 Weigh it accordingly in the review; he wants to cut back on fries.
