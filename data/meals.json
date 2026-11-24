@@ -299,5 +299,18 @@
     "protein": 0,
     "waterOz": 24,
     "notes": "0 cal, 68 mg caffeine per can"
+  },
+  {
+    "date": "2026-11-24",
+    "time": "15:52",
+    "meal": "snack",
+    "items": "Dry roasted peanuts, small handful (~1 oz)",
+    "calories": 170,
+    "carbs": 6,
+    "fiber": 2,
+    "sugar": 1,
+    "protein": 7,
+    "estimated": true,
+    "notes": "Typical dry roasted 1 oz serving values; handful portion estimated"
   }
 ]
