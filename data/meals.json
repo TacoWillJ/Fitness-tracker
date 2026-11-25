@@ -387,5 +387,18 @@
     "sugar": 0,
     "protein": 2,
     "notes": "Label: 2 tsp (5 g), 100 mg sodium"
+  },
+  {
+    "date": "2026-11-24",
+    "time": "19:53",
+    "meal": "snack",
+    "items": "Crystal Light lemonade, 1 glass (~12 oz)",
+    "calories": 5,
+    "carbs": 0,
+    "fiber": 0,
+    "sugar": 0,
+    "protein": 0,
+    "waterOz": 12,
+    "estimated": true
   }
 ]
