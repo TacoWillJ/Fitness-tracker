@@ -60,6 +60,8 @@ potatoes, corn, stuffing, fruit salad, and eats leftovers all week. Log it anywa
 rough portions; turkey leftovers are a good lean-protein option for the review.
 Equipment: he has an elliptical in the garage. Daily Move ring has been ~20-40 cal short
 (about 10 min of activity); he wants to add ~10 min walks or elliptical. Log as cardio.
+Calorie goal William set (2026-11-24): 2,000 cal/day or under, starting point. Stored in
+`data/goals.json`; the site marks each day against it.
 His own swap idea: on an opportunity breakfast run, get a side of scrambled eggs instead
 of hash browns.
 

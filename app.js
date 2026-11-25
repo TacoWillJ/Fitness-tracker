@@ -20,6 +20,8 @@
   }
 
   const [workouts, meals, body, activity] = await Promise.all([load("workouts"), load("meals"), load("body"), load("activity")]);
+  let goals = {};
+  try { const r = await fetch(`data/goals.json?v=${Date.now()}`); if (r.ok) goals = await r.json(); } catch {}
 
   // ---------- summary ----------
   const thisWeek = weekStart(new Date());
@@ -188,7 +190,12 @@
     if (counted("carbs") && counted("fiber")) totals.splice(2, 0, `${Math.round(Math.max(0, sum("carbs") - sum("fiber")))}g net carbs`);
     totals = totals.join(" · ");
     const partial = d.meals.some((m) => m.carbs === undefined) && counted("carbs");
-    const totalsHtml = totals ? `<div class="totals">Day total: ${esc(totals)}${partial ? " (some meals missing numbers)" : ""}</div>` : "";
+    let goalHtml = "";
+    if (goals.calories && counted("calories")) {
+      const cal = Math.round(sum("calories")), over = cal > goals.calories;
+      goalHtml = ` <span class="${over ? "over" : "under"}">${over ? "▲" : "✓"} ${cal.toLocaleString()} / ${goals.calories.toLocaleString()} cal goal</span>`;
+    }
+    const totalsHtml = totals ? `<div class="totals">Day total: ${esc(totals)}${partial ? " (some meals missing numbers)" : ""}${goalHtml}</div>` : "";
     return `<div class="day"><h3>${esc(fmtDate(k))}</h3>${totalsHtml}<ul>${items.map((i) => i.html).join("")}</ul></div>`;
   }
 
