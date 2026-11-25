@@ -312,5 +312,68 @@
     "protein": 7,
     "estimated": true,
     "notes": "Typical dry roasted 1 oz serving values; handful portion estimated"
+  },
+  {
+    "date": "2026-11-24",
+    "time": "19:02",
+    "meal": "dinner",
+    "items": "Spaghetti, 1 serving (2 oz dry)",
+    "calories": 200,
+    "carbs": 42,
+    "fiber": 2,
+    "sugar": 2,
+    "protein": 7,
+    "notes": "WinCo label"
+  },
+  {
+    "date": "2026-11-24",
+    "time": "19:02",
+    "meal": "dinner",
+    "items": "81% lean ground beef, ~1/2 lb raw, browned",
+    "calories": 520,
+    "carbs": 0,
+    "fiber": 0,
+    "sugar": 0,
+    "protein": 40,
+    "estimated": true,
+    "notes": "Estimate for 8 oz raw 81/19, some fat drained"
+  },
+  {
+    "date": "2026-11-24",
+    "time": "19:02",
+    "meal": "dinner",
+    "items": "Pasta sauce, ~1/2 cup",
+    "calories": 70,
+    "carbs": 10,
+    "fiber": 2,
+    "sugar": 10,
+    "protein": 2,
+    "estimated": true,
+    "notes": "Label per 1/2 cup; amount estimated"
+  },
+  {
+    "date": "2026-11-24",
+    "time": "19:02",
+    "meal": "dinner",
+    "items": "WinCo Garlic Texas Toast, 2 slices",
+    "calories": 280,
+    "carbs": 30,
+    "fiber": 1,
+    "sugar": 1,
+    "protein": 6,
+    "notes": "Label: 140 cal, 15 g carbs per slice"
+  },
+  {
+    "date": "2026-11-24",
+    "time": "19:02",
+    "meal": "dinner",
+    "items": "Crystal Light lemonade, 1 glass (~12 oz)",
+    "calories": 5,
+    "carbs": 0,
+    "fiber": 0,
+    "sugar": 0,
+    "protein": 0,
+    "waterOz": 12,
+    "estimated": true
   }
 ]

@@ -73,6 +73,10 @@ of hash browns.
 - Mtn Dew Baja Blast Zero Sugar, 12 oz can: 0 cal, 0 g carbs, 0 g sugar (68 mg caffeine) — count waterOz 12
 - Ruffles Original, 1 oz (~12 chips): 160 cal, 15 g carbs, 1 g fiber, ~0.5 g sugar, 2 g protein
 - Cottage cheese, 1 cup (generic 4%, estimate): 220 cal, 10 g carbs, 0 g fiber, 8 g sugar, 25 g protein
+- WinCo spaghetti, 2 oz dry: 200 cal, 42 g carbs, 2 g fiber, 2 g sugar, 7 g protein
+- Jar pasta sauce (Prego-style), 1/2 cup: 70 cal, 10 g carbs, 2 g fiber, 10 g sugar (4 g added), 2 g protein, 470 mg sodium
+- WinCo Garlic Texas Toast, 1 slice: 140 cal, 15 g carbs, <1 g fiber, <1 g sugar, 3 g protein
+- 81% lean ground beef, 1/2 lb raw (drained, estimate): ~520 cal, 0 g carbs, ~40 g protein
 - Armour pepperoni, per 16 slices (30 g): 140 cal, 1 g carbs, 0 g fiber, <1 g sugar, 6 g protein
 
 ## Schemas
