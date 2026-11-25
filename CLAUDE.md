@@ -77,6 +77,7 @@ of hash browns.
 - Jar pasta sauce (Prego-style), 1/2 cup: 70 cal, 10 g carbs, 2 g fiber, 10 g sugar (4 g added), 2 g protein, 470 mg sodium
 - WinCo Garlic Texas Toast, 1 slice: 140 cal, 15 g carbs, <1 g fiber, <1 g sugar, 3 g protein
 - 81% lean ground beef, 1/2 lb raw (drained, estimate): ~520 cal, 0 g carbs, ~40 g protein
+- Grated parmesan (shaker), 2 tsp (5 g): 20 cal, 0 g carbs, 0 g sugar, 2 g protein, 100 mg sodium
 - Armour pepperoni, per 16 slices (30 g): 140 cal, 1 g carbs, 0 g fiber, <1 g sugar, 6 g protein
 
 ## Schemas

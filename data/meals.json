@@ -375,5 +375,17 @@
     "protein": 0,
     "waterOz": 12,
     "estimated": true
+  },
+  {
+    "date": "2026-11-24",
+    "time": "19:02",
+    "meal": "dinner",
+    "items": "Grated parmesan, 1 serving (2 tsp)",
+    "calories": 20,
+    "carbs": 0,
+    "fiber": 0,
+    "sugar": 0,
+    "protein": 2,
+    "notes": "Label: 2 tsp (5 g), 100 mg sodium"
   }
 ]
