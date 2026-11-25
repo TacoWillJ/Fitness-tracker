@@ -400,5 +400,42 @@
     "protein": 0,
     "waterOz": 12,
     "estimated": true
+  },
+  {
+    "date": "2026-11-25",
+    "time": "14:14",
+    "meal": "lunch",
+    "items": "Taco John's Potato Ol\u00e9s, large",
+    "calories": 840,
+    "carbs": 78,
+    "fiber": 10,
+    "sugar": 1,
+    "protein": 8,
+    "notes": "Published large Ol\u00e9s"
+  },
+  {
+    "date": "2026-11-25",
+    "time": "14:14",
+    "meal": "lunch",
+    "items": "Taco John's softshell beef tacos x3",
+    "calories": 690,
+    "carbs": 66,
+    "fiber": 3,
+    "sugar": 3,
+    "protein": 33,
+    "notes": "Published softshell beef taco x3 (230 cal, 22 g carbs each)"
+  },
+  {
+    "date": "2026-11-25",
+    "time": "14:14",
+    "meal": "lunch",
+    "items": "Crystal Light lemonade, 1 glass (~12 oz)",
+    "calories": 5,
+    "carbs": 0,
+    "fiber": 0,
+    "sugar": 0,
+    "protein": 0,
+    "waterOz": 12,
+    "estimated": true
   }
 ]
