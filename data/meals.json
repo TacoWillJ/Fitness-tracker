@@ -463,5 +463,68 @@
     "waterOz": 12,
     "estimated": true,
     "notes": "Evening"
+  },
+  {
+    "date": "2026-11-26",
+    "time": "10:41",
+    "meal": "snack",
+    "items": "Ruffles Original chips, 1 serving (~12 chips, 1 oz)",
+    "calories": 160,
+    "carbs": 15,
+    "fiber": 1,
+    "sugar": 1,
+    "protein": 2,
+    "notes": "Thanksgiving morning snacking"
+  },
+  {
+    "date": "2026-11-26",
+    "time": "10:41",
+    "meal": "snack",
+    "items": "Cottage cheese chip dip (family recipe), ~1/4 cup",
+    "calories": 70,
+    "carbs": 3,
+    "fiber": 0,
+    "sugar": 2,
+    "protein": 6,
+    "estimated": true,
+    "notes": "Homemade; generic cottage-cheese dip estimate"
+  },
+  {
+    "date": "2026-11-26",
+    "time": "10:41",
+    "meal": "snack",
+    "items": "Black olives, 1 can (~6 oz can, drained)",
+    "calories": 125,
+    "carbs": 7,
+    "fiber": 4,
+    "sugar": 0,
+    "protein": 1,
+    "estimated": true,
+    "notes": "Ripe olives ~115 cal/100 g; ~800 mg sodium"
+  },
+  {
+    "date": "2026-11-26",
+    "time": "10:41",
+    "meal": "snack",
+    "items": "Radishes, 2",
+    "calories": 2,
+    "carbs": 0,
+    "fiber": 0,
+    "sugar": 0,
+    "protein": 0,
+    "estimated": true
+  },
+  {
+    "date": "2026-11-26",
+    "time": "10:41",
+    "meal": "snack",
+    "items": "Crystal Light lemonade, 1 cup (~12 oz)",
+    "calories": 5,
+    "carbs": 0,
+    "fiber": 0,
+    "sugar": 0,
+    "protein": 0,
+    "waterOz": 12,
+    "estimated": true
   }
 ]
