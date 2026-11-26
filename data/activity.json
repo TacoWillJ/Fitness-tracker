@@ -67,5 +67,14 @@
     "moveGoal": 180,
     "flights": 0,
     "notes": "WFH; activity mid-afternoon and ~5-7 PM cooking dinner"
+  },
+  {
+    "date": "2026-11-25",
+    "steps": 5329,
+    "distance": 2.08,
+    "moveCalories": 286,
+    "moveGoal": 180,
+    "flights": 2,
+    "notes": "Day before Thanksgiving; active morning, Taco John's run, big burst ~4 PM"
   }
 ]
