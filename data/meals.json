@@ -437,5 +437,31 @@
     "protein": 0,
     "waterOz": 12,
     "estimated": true
+  },
+  {
+    "date": "2026-11-25",
+    "meal": "snack",
+    "items": "Crystal Light lemonade, 1 cup (~12 oz)",
+    "calories": 5,
+    "carbs": 0,
+    "fiber": 0,
+    "sugar": 0,
+    "protein": 0,
+    "waterOz": 12,
+    "estimated": true,
+    "notes": "Evening"
+  },
+  {
+    "date": "2026-11-25",
+    "meal": "snack",
+    "items": "Crystal Light lemonade, 1 cup (~12 oz)",
+    "calories": 5,
+    "carbs": 0,
+    "fiber": 0,
+    "sugar": 0,
+    "protein": 0,
+    "waterOz": 12,
+    "estimated": true,
+    "notes": "Evening"
   }
 ]
