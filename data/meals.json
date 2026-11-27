@@ -636,13 +636,13 @@
     "time": "19:00",
     "meal": "dinner",
     "estimated": true,
-    "items": "Fruit salad, ~1 cup",
-    "calories": 90,
-    "carbs": 23,
-    "fiber": 3,
-    "sugar": 18,
+    "items": "Fruit salad with whipped topping, ~1 cup",
+    "calories": 150,
+    "carbs": 26,
+    "fiber": 2,
+    "sugar": 20,
     "protein": 1,
-    "notes": "Assumed fresh mixed fruit; creamy-style would be higher"
+    "notes": "~3/4 cup fruit + whipped topping, estimate"
   },
   {
     "date": "2026-11-26",
