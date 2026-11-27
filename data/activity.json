@@ -76,5 +76,14 @@
     "moveGoal": 180,
     "flights": 2,
     "notes": "Day before Thanksgiving; Hobby Lobby trip in the morning, Taco John's run, store run ~4 PM"
+  },
+  {
+    "date": "2026-11-26",
+    "steps": 4749,
+    "distance": 1.74,
+    "moveCalories": 213,
+    "moveGoal": 180,
+    "flights": 2,
+    "notes": "Thanksgiving: on feet cooking/smoking turkey, mornings and 1-5 PM"
   }
 ]
