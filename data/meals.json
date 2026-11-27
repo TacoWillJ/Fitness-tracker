@@ -617,5 +617,44 @@
     "sugar": 0,
     "protein": 0,
     "waterOz": 12
+  },
+  {
+    "date": "2026-11-26",
+    "time": "19:00",
+    "meal": "dinner",
+    "estimated": true,
+    "items": "Spiral ham, ~1/2 cup (two small pieces)",
+    "calories": 115,
+    "carbs": 4,
+    "fiber": 0,
+    "sugar": 4,
+    "protein": 13,
+    "notes": "Second, later plate; glazed spiral ham estimate"
+  },
+  {
+    "date": "2026-11-26",
+    "time": "19:00",
+    "meal": "dinner",
+    "estimated": true,
+    "items": "Fruit salad, ~1 cup",
+    "calories": 90,
+    "carbs": 23,
+    "fiber": 3,
+    "sugar": 18,
+    "protein": 1,
+    "notes": "Assumed fresh mixed fruit; creamy-style would be higher"
+  },
+  {
+    "date": "2026-11-26",
+    "time": "19:00",
+    "meal": "dinner",
+    "estimated": true,
+    "items": "Crystal Light grape, 1 cup (~12 oz)",
+    "calories": 5,
+    "carbs": 0,
+    "fiber": 0,
+    "sugar": 0,
+    "protein": 0,
+    "waterOz": 12
   }
 ]
