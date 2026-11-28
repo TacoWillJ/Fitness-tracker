@@ -85,5 +85,14 @@
     "moveGoal": 180,
     "flights": 2,
     "notes": "Thanksgiving: on feet cooking/smoking turkey, mornings and 1-5 PM"
+  },
+  {
+    "date": "2026-11-27",
+    "steps": 1772,
+    "distance": 0.64,
+    "moveCalories": 74,
+    "moveGoal": 180,
+    "flights": 0,
+    "notes": "Home all day grazing on leftovers"
   }
 ]
