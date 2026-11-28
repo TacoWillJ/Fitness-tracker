@@ -656,5 +656,102 @@
     "sugar": 0,
     "protein": 0,
     "waterOz": 12
+  },
+  {
+    "date": "2026-11-27",
+    "meal": "snack",
+    "notes": "Grazing on Thanksgiving leftovers through the day",
+    "items": "Spiral ham, ~1 cup",
+    "calories": 230,
+    "carbs": 8,
+    "fiber": 0,
+    "sugar": 7,
+    "protein": 26,
+    "estimated": true
+  },
+  {
+    "date": "2026-11-27",
+    "meal": "snack",
+    "notes": "Grazing on Thanksgiving leftovers through the day",
+    "items": "Fruit salad with whipped topping, ~1 cup",
+    "calories": 150,
+    "carbs": 26,
+    "fiber": 2,
+    "sugar": 20,
+    "protein": 1,
+    "estimated": true
+  },
+  {
+    "date": "2026-11-27",
+    "meal": "snack",
+    "notes": "Grazing on Thanksgiving leftovers through the day",
+    "items": "Turkey (leftover smoked), ~1 cup",
+    "calories": 250,
+    "carbs": 0,
+    "fiber": 0,
+    "sugar": 0,
+    "protein": 40,
+    "estimated": true
+  },
+  {
+    "date": "2026-11-27",
+    "meal": "snack",
+    "notes": "Grazing on Thanksgiving leftovers through the day",
+    "items": "Corn, ~1 cup",
+    "calories": 140,
+    "carbs": 31,
+    "fiber": 4,
+    "sugar": 7,
+    "protein": 5,
+    "estimated": true
+  },
+  {
+    "date": "2026-11-27",
+    "meal": "snack",
+    "notes": "Grazing on Thanksgiving leftovers through the day",
+    "items": "Green olives, 10",
+    "calories": 50,
+    "carbs": 1,
+    "fiber": 1,
+    "sugar": 0,
+    "protein": 0,
+    "estimated": true
+  },
+  {
+    "date": "2026-11-27",
+    "meal": "snack",
+    "notes": "Grazing on Thanksgiving leftovers through the day",
+    "items": "Black olives, 1 can (~6 oz can, drained)",
+    "calories": 125,
+    "carbs": 7,
+    "fiber": 4,
+    "sugar": 0,
+    "protein": 1,
+    "estimated": true
+  },
+  {
+    "date": "2026-11-27",
+    "meal": "snack",
+    "notes": "Grazing on Thanksgiving leftovers through the day",
+    "items": "Radishes, 4",
+    "calories": 4,
+    "carbs": 1,
+    "fiber": 0,
+    "sugar": 0,
+    "protein": 0,
+    "estimated": true
+  },
+  {
+    "date": "2026-11-27",
+    "meal": "snack",
+    "notes": "Grazing on Thanksgiving leftovers through the day",
+    "items": "Crystal Light grape, 3 glasses (~12 oz each)",
+    "calories": 15,
+    "carbs": 0,
+    "fiber": 0,
+    "sugar": 0,
+    "protein": 0,
+    "waterOz": 36,
+    "estimated": true
   }
 ]
