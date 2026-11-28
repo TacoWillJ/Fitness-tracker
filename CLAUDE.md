@@ -37,6 +37,11 @@ habits and available time windows. Don't push a routine or menu during this week
 the end, review the data with him (meal timing, gaps, snacking, when he actually had
 time to move) and then build the routine and meal plan from it.
 
+Extended (William's call, 2026-11-28): Nov 21–27 was Thanksgiving week with a 5-day
+holiday, so it isn't typical. Keep logging through a normal week (Nov 30 – Dec 6) and do
+the review after that, comparing the two weeks. His own small swaps (eggs instead of hash
+browns, car snack, 10-min elliptical, no-sugar-added cocoa) are fine to start meanwhile.
+
 Context William gave: he works from home. Low-step days (~1–2k) are WFH days;
 high days (7–10k) are when he's out — shopping, or the weekend of Nov 14–15 (Chiefs
 game and a craft show). Add `"notes"` to an activity entry when he says what the
